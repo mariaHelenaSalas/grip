@@ -1,0 +1,131 @@
+body{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ background-color: rgb(255, 255, 255);
+}
+.container{
+   display: grid;
+   grid-template-rows: auto auto auto; 
+   background-color:  rgb(0, 0, 0);
+   width: 58vw;
+   border-radius: 2vw;
+   height: 130vh;
+   gap: 1vw;
+   margin-left: 49vh;
+   padding: 2vh;
+
+}
+.item1{
+    background-color: rgb(225, 225, 225);
+    border-radius: 1vw;
+    width: 31vw;
+    height: 35vh;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+
+}
+.item1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1vw;
+}
+.item2{
+    background-color: rgb(225, 225, 225);
+    border-radius: 5vw;
+    width: 31vw;
+    height: 30vh;
+   
+
+}
+.item2 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2vw;
+}
+
+.item3{
+    background-color: rgb(225, 225, 225);
+    border-radius: 5vw;
+    grid-column: 2/3;
+    grid-row: 1/3;  
+    height: 70vh; 
+    width: 25vw;
+
+}
+.item3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2vw;
+}
+.item4{
+    background-color: rgb(225, 225, 225);
+    border-radius: 2vw;
+    grid-column: 1/3;
+    height: 55vh;
+   
+}    
+.item4 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5vh;
+    
+}
+.container2{
+    display: grid;
+    grid-template-rows: auto auto; 
+    background-color:  rgb(0, 0, 0);
+    width: 58vw;
+    border-radius: 2vw;
+    height: 90vh;
+    row-gap: 1vw;
+    margin-left: 49vh;
+    padding: 2vh;  
+}
+.item5{
+    background-color: rgb(225, 225, 225);
+    border-radius: 1vw;
+    width: 31vw;
+    height: 38vh;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.item5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1vw;
+}
+.item6{
+    background-color: rgb(225, 225, 225);
+    border-radius: 1vw;
+    grid-column: 2/3;
+    grid-row: 1/3;  
+    height: 90vh; 
+    width: 25vw;
+
+}
+.item6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1vw;
+}
+.item7{
+    background-color: rgb(225, 225, 225);
+    border-radius: 1vw;
+    width: 31vw;
+    height: 30vh;
+    height: 25vw;
+}
+.item7 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1vw;
+}
